@@ -1,0 +1,120 @@
+/* all banner */
+html,body{
+	margin:0;
+	height: 100%;
+}
+.banner{
+	padding:30px 15px;
+	background-color:yellow;
+}
+
+.flyban{
+	background-color: maroon;
+	font-family: Georgia;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-left: 150px;
+	height: 18px;
+
+}
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	color: yellow;
+	position: absolute;
+	background-color: white;
+	min-width: 100px;
+	box-shadow: 5px 16px 32px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.droplink{
+	cursor: pointer;
+}
+
+.dropdown:hover .droplink{
+    text-decoration: bold;
+    font-size: 17px;
+}
+
+.PHSpic{
+	border-top: 5px solid #FFF056;
+	border-bottom: 5px solid #FFF056;
+}
+
+li a{
+	font-family: Verdana, Geneva, sans-serif;  
+	font-size: 11px;
+	float: right;
+	color: black;
+	font-variant: small-caps;
+	text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+
+nav{
+	padding: 75px 5px;
+}
+
+th{
+	padding: 5px;
+}
+
+footer{
+	clear: both;
+	background-color: #333333;
+	color:white;
+	padding: 5px 20px;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+   	margin-left: 30px;
+}
+
+.left, .right {
+  width: 20%;
+}
+
+.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
